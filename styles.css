@@ -36,12 +36,12 @@ header h1{
 .socials{
     padding-left: 30px;
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
 .socials img{
-    width:40px;
-    height: 40px;
+    width:30px;
+    height: 30px;
 }
 
 
@@ -65,15 +65,13 @@ a:hover{
     text-decoration: underline;
 }
 
-
-
 .content{
     width: 100%;
-    padding-left: 30px;
     padding-bottom: 57px;
     background-image: url(iconpic/icon.png.jpg); 
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center; */
 }
 
 .home-image{
@@ -82,9 +80,20 @@ a:hover{
     border-radius: 15px;
     border-color: coral;
 }
-/*.list-aboutme{
+
+.content p{
+    color:antiquewhite;
+}
+
+.content .abtMeText{
+    color:brown;
+    text-decoration: underline;
+}
+
+.list-aboutme{
     list-style-type: lower-roman;
-} */
+    padding-left: 30px;
+} 
 
 footer{
     width: 100%;
@@ -96,4 +105,48 @@ footer{
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
+}
+
+.project-table{
+
+    border-collapse: collapse;
+    margin: auto;
+
+    margin-top: 10px;
+}
+
+.project-table td, .project-table th{
+    border: 1px dashed black;
+    padding: 3px;
+    text-align: center;
+}
+
+.content form{
+    width: fit-content;
+    margin: auto;
+    text-align: left;
+    padding: 5px;
+}
+
+.content legend{
+    text-align: center;
+}
+.content fieldset{
+    padding: 3px;
+}
+
+.content label{
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+}
+
+.content input, .content textarea{
+    margin-bottom: 5px;
+    width: 250px;
+    padding: 6px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
 }

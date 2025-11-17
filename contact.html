@@ -2,7 +2,9 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="iconpic/icon.png.jpg"
         <title>Contact Me</title>
+        <script src="contact.js" defer></script>
     </head>
     <body>
         <header>
@@ -27,6 +29,25 @@
         </div>
         </header>
         <div class="content">
+            <form name="contactMe" onsubmit="return validateForm();">
+                <fieldset>
+                    <legend>Contact Me</legend>
+                    <label>Name:</label>
+                    <input name="name" type="text"><br/>
+                   
+                    <label>Email:</label>
+                    <input name="email" type="email"><br/>
+                   
+                    <label>Phone:</label>
+                    <input name="phone" type="tel"/><br/>
+                   
+                    <label>Message:</label>
+                    <textarea name="msg" rows="4" cols="50"></textarea><br/>
+
+                    <label></label>
+                    <input type="submit" value="Send Message!">
+                </fieldset>
+            </form>
 
         </div>
 
